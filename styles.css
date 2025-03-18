@@ -89,3 +89,58 @@ h3{
     padding: 0px;
     padding: 0px 10px 0px 10px;
 }
+
+.container {
+    border-radius: 10px;
+    background-color:#c6a66a;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.poll-question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.poll-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.vote-button {
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+
+.vote-button:hover {
+    background-color: rgb(148, 148, 148);
+}
+
+.results {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.928);
+}
+
+.results-title {
+    font-size: 20px;
+}
+
+.results-count {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.count {
+    font-weight: bold;
+}
