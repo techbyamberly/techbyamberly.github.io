@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(233, 245, 126);
+    background-color:#ffe1a8;
 }
 
 h2{
@@ -38,8 +38,8 @@ h1{
     font-size:50px;
     
     color:rgb(255, 69, 52);
-    border: 7px solid rgb(233, 245, 126);
-    background:rgb(233, 245, 126);
+    border: 7px solid #ffe1a8;
+    background:#ffe1a8;
 }
 
 
@@ -58,7 +58,9 @@ article {
 }
 
 .text{
+    display: inline;
     color:white;
+    padding: 0px 10px 0px 10px;
 }
 
 #nyanCat{
@@ -66,5 +68,24 @@ article {
     border: 7px none rgb(233, 245, 126);
     background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
 }
-    
-  
+
+.bottom{
+    border: 7px solid #c6a66a;
+    background:#c6a66a;
+    bottom: 0;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+}
+
+#bottomNyan{
+    border: 7px solid rgb(3, 49, 100);
+    background:rgb(3, 49, 100);
+    bottom: 0;
+}
+
+h3{
+    font-family: "Fredoka", sans-serif;
+    text-align:center;
+    padding: 0px;
+    padding: 0px 10px 0px 10px;
+}
